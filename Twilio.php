@@ -5,7 +5,7 @@ use twilio\service\twilio;
 /**
  * This is just an example.
  */
-class Twilio extends \yii\base\Widget
+class Twilio 
 {
     public $sid;
     public $token;
