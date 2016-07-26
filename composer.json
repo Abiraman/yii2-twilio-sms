@@ -1,0 +1,21 @@
+{
+    "name": "abiraman/yii2-twilio-sms",
+    "description": "With the twilio-php library, we've simplified interaction with the Twilio REST API. No need to manually create URLS or parse XML/JSON. You now interact with resources directly. Follow the Quickstart Guide to get up and running right now. The User Guide shows you how to get the most out of twilio-php.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","twilio","extension","sms",""],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abiraman",
+            "email": "abiraman.nvr@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "twilio\\": ""
+        }
+    }
+}
